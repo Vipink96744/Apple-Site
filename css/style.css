@@ -1,0 +1,251 @@
+*{
+	/*border: 1px solid white;*/
+}
+
+body{
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.navbar{
+	position: fixed;
+}
+.iphone-navbar{
+	height: 44px;
+	background-color: rgba(45, 49, 45, 0.98);
+	font-size: 14px;
+	position: sticky;
+}
+
+.iphone-navbar a{
+	color: white;
+	/*padding: 150px;*/
+}
+
+.iphone-navbar a:hover{
+	color: grey;
+
+}
+/* iPhone XR */
+
+.iphone-xr{
+	background-color: black;
+	width: 100%;
+	height: 580px;
+}
+
+.unit-wrapper a.iphone-xr-unit-link{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 43px;
+}
+.boxed{
+	border: 3px solid white;
+	font-size: 24px;
+	width: 29px;
+	position: absolute;
+	left: 770px;
+	top: 9px;
+	border-radius: 7px;
+}
+
+.unit-text-wrapper{
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	text-align: center;
+	margin-top: -2px;
+	/*pointer-events: none;*/
+	padding-top: 41px;
+}
+
+.unit-text-wrapper a{
+	pointer-events: all;
+}
+
+.head{
+	font-size: 45px;
+}
+
+.head, .subhead{
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.subhead{
+	font-size: 23px;
+}
+
+.iphone-xr-links a:hover{
+	text-decoration: underline;
+}
+
+.iphone-xr-links{
+	display: inline-block;
+	line-height: 1.3;
+	font-size: 21px;
+	margin-top: 9px;
+}
+
+.iphone-xr-links a:last-child{
+	margin-left: 26px;
+}
+.iphone-xr-image{
+	position: relative;
+	top: 20px;
+}
+
+/* iPhone XR ENDS */
+
+/* iPhone XS */
+
+.iphone-xs{
+	background-color: black;
+	position: relative;
+	top: 16px;
+	width: 100%;
+	height: 580px;
+}
+
+.iphone-xs-image{
+	position: relative;
+	top: 15px;
+}
+
+.unit-wrapper a.iphone-xs-unit-link:hover{
+	text-decoration: underline;
+}
+
+.unit-wrapper a.iphone-xs-unit-link{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 43px;
+}
+
+.iphone-xs-links{
+	display: inline-block;
+	line-height: 1.3;
+	font-size: 21px;
+	margin-top: 7px;
+}
+
+.iphone-xs-links a:last-child{
+	margin-left: 26px;
+}
+
+/* iPhone XS ENDS */
+
+/* Watch Section */
+
+.watch{
+	background-color: #fafafa;
+	position: relative;
+	top: 32px;
+	width: 100%;
+	height: 624px;
+}
+
+.watch-text-wrapper{
+	text-align: center;
+	width: 300px;
+	height: 170px;
+	/*border: 1px black solid; */
+	position: relative ;
+	top: 225px;
+	left: 177px;
+}
+
+.watch-subhead{
+	line-height: 19px;
+}
+
+.watch-image-wrapper{
+	/*border: 1px solid black;*/
+	width: 340px;
+	height: 580px;
+	position: relative;
+	top: -169px;
+	left: 671px;
+}
+
+.watch-links{
+	display: inline-block;
+	line-height: 1.3;
+	font-size: 21px;
+	margin-top: 7px;
+}
+
+.watch-links a:last-child{
+	margin-left: 26px;
+}
+
+/* Watch Section Ends */
+
+
+.first_deck{
+	position: relative;
+	top: 48px;
+}
+
+.second_deck{
+	position: relative;
+	top: 64px;
+}
+
+.third_deck{
+	position: relative;
+	top: 80px;
+}
+
+.links{
+	display: inline-block;
+	line-height: 1.3;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+.links a:last-child{
+	margin-left: 26px;
+}
+
+.card-head{
+	position: relative;
+	top: 52px;
+	font-size: 40px;
+	line-height: 1.1;
+}
+
+.card-subhead{
+	position: relative;
+	top: 47px;
+	font-size: 21px;
+	line-height: 1.2;
+}
+.macbook_air{
+	position: relative;
+	top: 18px;
+}
+.list{
+	list-style: none;
+	line-height: 2.2;
+}
+
+.list a{
+	color: grey;
+}
+
+.list a:hover{
+	text-decoration: underline;
+	color: grey;
+}
+
+.footer{
+	position: relative;
+	top: 96px;
+	font-size: 9px;
+}
